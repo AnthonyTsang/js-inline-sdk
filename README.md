@@ -25,12 +25,12 @@ http://demo.oneskytranslate.com/
   Make sure it is read-able in this url
   http://www.yourdomain.com/xd_receiver.html
 
-### 3. Include OneSky's javascript
+### 3. Include OneSky javascript file
 ```html
 <script type="text/javascript" src="//s3.amazonaws.com/oneskyapp.static/onesky-loader.js"></script>
 ```
 
-### 4. Config the page
+### 4. Configure the page
   ```javascript
   OneSkyClientConfig = {
     'key'				: 'Your Public API Key',
