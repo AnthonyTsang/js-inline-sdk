@@ -1,4 +1,4 @@
-## How it looks like
+## See it in action
 http://demo.oneskytranslate.com/
 
 
