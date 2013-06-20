@@ -2,13 +2,13 @@
 http://demo.oneskytranslate.com/
 
 
-### 1. Wrap the text to be translated with OneSky tag and provide a key
+### 1. For the texts to be translated, wrap them with a OneSky tag and provide a key
   ```html
   <os-p key="the_key_of_the_text">the text to be translated<os-p> 
   <os-p key="menu.bar.item.about_us">About Us<os-p> 
   ```
   
-  Remember DO NOT wrap the text in attributes, select elements nor header elements
+  [Reminder!] Do not wrap the text in attributes, select elements or header elements
   ```html
   <a href="#" title="<os-p key="some_link_descriptions">Link Description<os-p>">Link</a>
   <title><os-p key="some_link_descriptions">My site title<os-p></title>
@@ -17,9 +17,9 @@ http://demo.oneskytranslate.com/
   </select>
   ```
 
-### 2. Put a Cross-domain channel file under your domain
+### 2. Put a Cross-domain Channel File under your domain
 
-  We'd need to have some javascript communications with your page, so we require to put a file at your side to allow cross-domain javascript communication.
+  Our system will need to communicate with your page in javascript, so you need to put a file on your side to allow cross-domain javascript communication.
   Download the xd_receiver.html from this repo.
 
   Make sure it is read-able in this url
@@ -39,11 +39,11 @@ http://demo.oneskytranslate.com/
   	// You can set this as FALSE or simply not calling OneSkyClient 
   	'start_translate'		: TRUE,
   	
-  	// The locale that user is accessing, we do not have any default setting for that, all depends on you 
+  	// The locale that user is accessing 
   	'locale'			: 'en-US', // we support ISO 639-1
   	
   	/* 
-  	* [OPTIONAL] Single Sign On settings to seamlessly sign in your users for inline translation
+  	* [OPTIONAL] Single Sign On settings to sign in your users for inline translation
   	* You may refer to SSO Tutorial
   	*/ 
   	'sso_id'			: '6894', // ID from your system to manage user contributions
@@ -51,9 +51,9 @@ http://demo.oneskytranslate.com/
   	'sso_data'			: '48c37dd76116e825f11cc100188bf063',
   	'sso_time'			: '1355371257'
   	
-  	// [OPTIONAL] More settings that you might be interested in 
+  	// [OPTIONAL] More settings that you may be interested in 
   	'xd_receiver'			: '/my/own/xd_receiver.html'	
   }};
   ```
 ### 5. Done!
-  Shall you need further assist, ping us support@oneskyapp.com
+  Shall you need further help, ping us at support@oneskyapp.com
