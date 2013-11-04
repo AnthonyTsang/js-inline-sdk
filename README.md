@@ -1,5 +1,5 @@
 ## See it in action
-http://demo.oneskytranslate.com/
+www.oneskyapp.com/docs/bootstrap/es?inlineTranslate=true
 
 
 ### 1. For the texts to be translated, wrap them with a OneSky tag and provide a key
@@ -33,11 +33,11 @@ http://demo.oneskytranslate.com/
 ### 4. Configure the page
   ```javascript
   OneSkyClientConfig = {
-    'key'				: 'Your Public API Key',
-  	'platform_id'			: 'Platform ID for the page, e.g. 1234', // the number below your platform name
+    'apiKey'				: 'Your Public API Key',
+  	'project'			: 'Platform ID for the page, e.g. 1234', // the number below your platform name
   	
   	// You can set this as FALSE or simply not calling OneSkyClient 
-  	'start_translate'		: TRUE,
+  	'translate'		: TRUE,
   	
   	// The locale that user is accessing 
   	'locale'			: 'en-US', // we support ISO 639-1
@@ -46,13 +46,13 @@ http://demo.oneskytranslate.com/
   	* [OPTIONAL] Single Sign On settings to sign in your users for inline translation
   	* You may refer to SSO Tutorial
   	*/ 
-  	'sso_id'			: '6894', // ID from your system to manage user contributions
-  	'sso_name'			: 'User_6894',
-  	'sso_data'			: '48c37dd76116e825f11cc100188bf063',
-  	'sso_time'			: '1355371257'
+  	'ssoId'			: '6894', // ID from your system to manage user contributions
+  	'ssoName'			: 'User_6894',
+  	'ssoData'			: '48c37dd76116e825f11cc100188bf063',
+  	'ssoTime'			: '1355371257'
   	
   	// [OPTIONAL] More settings that you may be interested in 
-  	'xd_receiver'			: '/my/own/xd_receiver.html'	
+  	'xdReceiver'			: '/my/own/xd_receiver.html'	
   }};
   ```
 ### 5. Done!
